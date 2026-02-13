@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Anh iu bé ,Anh hứa hongg làm bé buồn nữa đouuu :3";
+  titleElement.innerHTML = "Thấy chưa 😌 A biết mà… Bị anh dụ thành công rồi nhaaaa 😎😆 ";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -35,7 +35,7 @@ function handleYesClick() {
 function resizeYesButton() {
   const computedStyle = window.getComputedStyle(yesButton);
   const fontSize = parseFloat(computedStyle.getPropertyValue("font-size"));
-  const newFontSize = fontSize * 1.2;
+  const newFontSize = fontSize * 1.4;
 
   yesButton.style.fontSize = `${newFontSize}px`;
 }
